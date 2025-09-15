@@ -24,7 +24,7 @@ A Model Context Protocol (MCP) server that provides seamless integration with Ri
 
 ```bash
 git clone https://github.com/jpcors/ring-mcp
-cd ring-mcp-server
+cd ring-mcp
 npm install
 npm run build
 ```
@@ -53,7 +53,7 @@ Add this to your Claude Desktop MCP configuration:
   "mcpServers": {
     "ring": {
       "command": "node",
-      "args": ["/path/to/ring-mcp-server/build/index.js"],
+      "args": ["/path/to/ring-mcp/build/index.js"],
       "env": {}
     }
   }
